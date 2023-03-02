@@ -1,8 +1,15 @@
+import Head from "next/head"
+
 import '../style.css'
 
 function App ({ Component, pageProps }) {
   return (
-    <Component {...pageProps} />
+    <>
+      <Head>
+      <title>Jogo da Velha</title>
+      </Head>
+      <Component {...pageProps} />
+    </>
   )
 }
 
