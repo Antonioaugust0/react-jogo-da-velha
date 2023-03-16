@@ -9,3 +9,29 @@
   flex-direction: column;
   align-items: center;
 }
+
+.scoreContent h2 {
+  margin-top: .3rem;
+}
+
+.circleScore::after {
+  content: "";
+  position: relative;
+  left: -3px;
+  width: 150%;
+  height: 2.5px;
+  display: block;
+  margin-top: .1rem;
+  background-color: #00EEFF;
+}
+
+.xScore::after {
+  content: "";
+  position: relative;
+  left: -3px;
+  width: 150%;
+  height: 2.5px;
+  display: block;
+  margin-top: .1rem;
+  background-color: #CD0E00;
+}
